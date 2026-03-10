@@ -32,7 +32,6 @@ Authentication Flow:
 # Workflow
 
 ## Step 1: Generate RSA Key Pair
-- bash
 Generate private key:
 openssl genrsa -out privatekey.pem 2048
 
@@ -50,7 +49,6 @@ Check generate_jwt.py
 ## Step 3: Exchange JWT for Access Token
 Endpoint: https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
 Request:
-- http
 POST /interconnect-fhir-oauth/oauth2/token HTTP/1.1
 Host: fhir.epic.com
 Content-Type: application/x-www-form-urlencoded
@@ -58,7 +56,7 @@ Content-Type: application/x-www-form-urlencoded
 grant_type=client_credentials&client_assertion_type=urn:ietf:params:oauth:client-assertion-type:jwt-bearer&client_assertion=<signed_jwt>
 
 Response:
-- json
+json
 {
   "access_token": "...",
   "token_type": "bearer",
