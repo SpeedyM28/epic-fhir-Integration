@@ -50,8 +50,11 @@ Check generate_jwt.py
 Endpoint: https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
 
 Request:
+
 POST /interconnect-fhir-oauth/oauth2/token HTTP/1.1
+
 Host: fhir.epic.com
+
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=client_credentials&client_assertion_type=urn:ietf:params:oauth:client-assertion-type:jwt-bearer&client_assertion=<signed_jwt>
