@@ -48,6 +48,7 @@ Check generate_jwt.py
 
 ## Step 3: Exchange JWT for Access Token
 Endpoint: https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
+
 Request:
 POST /interconnect-fhir-oauth/oauth2/token HTTP/1.1
 Host: fhir.epic.com
