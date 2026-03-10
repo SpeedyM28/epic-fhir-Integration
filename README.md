@@ -61,10 +61,15 @@ grant_type=client_credentials&client_assertion_type=urn:ietf:params:oauth:client
 
 Response:
 json
+
 {
+
   "access_token": "...",
+  
   "token_type": "bearer",
+  
   "expires_in": 3600
+  
 }
 
 ## Step 4: Query FHIR Resources
