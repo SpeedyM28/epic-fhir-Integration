@@ -100,9 +100,9 @@ Test Patient ID (Sandbox): erXuFYUfucBZaryVksYEcMg3
 
 ## Resources:
 
-- Epic FHIR Documentation
-- FHIR R4 Search Parameters
-- Epic Test Patients
+- [Epic FHIR Documentation](https://fhir.epic.com/Documentation?docId=developerguidelines)
+- [Epic FHIR R4 Search Parameters](https://fhir.epic.com/Documentation?docId=searchparameters)
+- [Epic Test Patients](https://fhir.epic.com/Documentation?docId=testpatients)
 
 ## What I Learned:
 Healthcare API integration requires understanding cryptographic authentication (RS384 JWT signing), managing short-lived tokens, and navigating extensive technical documentation with limited external support. Debugging authentication flows involves careful attention to timing (token expiration, clock synchronization) and exact specification compliance (claim structure, signature algorithms).
