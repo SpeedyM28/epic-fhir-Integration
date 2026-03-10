@@ -69,12 +69,17 @@ json
 
 ## Step 4: Query FHIR Resources
 Endpoint: https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/<resource>
+
 Example - Fetch Document Reference:
-http
+
 GET /interconnect-fhir-oauth/api/FHIR/R4/DocumentReference?patient=erXuFYUfucBZaryVksYEcMg3 HTTP/1.1
+
 Host: fhir.epic.com
+
 Accept: application/fhir+json
+
 Prefer: respond-async
+
 Authorization: Bearer <access_token>
 
 Test Patient ID (Sandbox): erXuFYUfucBZaryVksYEcMg3
