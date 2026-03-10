@@ -1,4 +1,5 @@
-# Private key
+# Public / Private keys
+publickey509.pem
 privatekey.pem
 
 # Byte-compiled / optimized / DLL files
